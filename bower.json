@@ -1,0 +1,21 @@
+{
+  "name": "symfony-base-project",
+  "authors": [
+    "Nassuf Mmadi | WAYUP Agency <nassuf@wayup.fr>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.*"
+  }
+}

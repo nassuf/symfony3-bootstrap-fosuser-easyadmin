@@ -1,0 +1,32 @@
+{
+  "name": "symfony3-bootstrap-fosuser-easyadmin",
+  "version": "1.0.0",
+  "description": "Symfony 3 base application with Bootstrap, FOSUser Bundle and EasyAdmin Bundle. Edit",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^2.0.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nassuf/symfony3-bootstrap-fosuser-easyadmin.git"
+  },
+  "author": "Nassuf Mmadi - WAYUP Agency",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nassuf/symfony3-bootstrap-fosuser-easyadmin"
+  },
+  "homepage": "https://github.com/nassuf/symfony3-bootstrap-fosuser-easyadmin#README"
+}
