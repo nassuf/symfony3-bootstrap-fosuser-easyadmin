@@ -40,7 +40,7 @@ gulp.task( 'js', function()
     return gulp.src( [                          // Get JS files (in order)
         config.jsPath + '/**'
     ] )
-        .pipe( gulp_concat( 'main.min.js' ) )   // Concat in one file
+        .pipe( gulp_concat( 'main_js.min.js' ) )   // Concat in one file
         .pipe( gulp_uglify() )                  // Minify them
         .pipe( gulp.dest( './web/js' ) );       // Put it in folder
 } );
@@ -50,7 +50,7 @@ gulp.task( 'js', function()
 gulp.task( 'watch', function()
 {
     // Watch for STYLUS modifications
-    gulp.watch(config.stylusPath + '/**', [ 'css' ] );
+    gulp.watch(config.stylusPath + '/**', [ 'stylus' ] );
 
     // Watch for JS modifications
     gulp.watch(config.jsPath + '/**', [ 'js' ] );
